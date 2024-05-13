@@ -1,0 +1,23 @@
+.odd {
+    background-color: rgb(255,192,203);
+    font-family: Verdana;
+}
+
+#even {
+    color: rgb(0,0,255);
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cooler {
+    background-color: rgb(255,192,203);
+    font-family: Verdana;
+    font-size: 24px;
+}
+
+#another-even {
+    background-color: #90EE90;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font: bold;
+}
