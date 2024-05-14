@@ -6,7 +6,14 @@
     <title>Cascade-fix</title>
     <style>
     
-        .bolder .bold {
+        .bolder {
+            font-weight: bold;
+            font-size: x-large;
+            font-family: Verdana;
+        }
+
+        .bold {
+            font-weight: bold;
             font-family: Verdana;
         }
 
@@ -16,25 +23,29 @@
         }
 
         #div-text {
-            font-weight: 500;
+            font-size: x-large;
         }
 
-        #div-text-bold {
-            font: bolder;
+        .bold #div-text-bold {
+            font-size: x-large;
         }
 
     </style>
 </head>
 <body>
     
-    <p class="bolder"><h1>I'm just a paragraph with extra bold text!</h1></p>
-    <p class="bold"><h2>I'm a smaller paragraph, also with extra bold text!</h2></p>
+    <p class="bolder">I'm just a paragraph with extra bold text!</p>
+    <p class="bold">I'm a smaller paragraph, also with extra bold text!</p>
 
     <button id="confirm">Confirm</button>
     <button id="cancel">Cancel</button>
 
-    <div id="div-text">I'm a div with thin text!</div>
-    <div id="div-text-child">I'm a div with thin text and a child div!</div>
+    <div id="div-text">
+        <p>I'm a div with thin text!</p>
+        
+        <div id="div-text-child">I'm a div with thin text and a child div!</div>
+    </div>
+
     <div class="bold" id="div-text-bold">I'm a smaller child div with extra bold text.</div>
 
 </body>
