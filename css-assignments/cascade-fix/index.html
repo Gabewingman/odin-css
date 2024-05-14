@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade-fix</title>
+    <style>
+    
+        .bolder .bold {
+            font-family: Verdana;
+        }
+
+        #confirm {
+            background: green;
+            color: white;
+        }
+
+        #div-text {
+            font-weight: 500;
+        }
+
+        #div-text-bold {
+            font: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <p class="bolder"><h1>I'm just a paragraph with extra bold text!</h1></p>
+    <p class="bold"><h2>I'm a smaller paragraph, also with extra bold text!</h2></p>
+
+    <button id="confirm">Confirm</button>
+    <button id="cancel">Cancel</button>
+
+    <div id="div-text">I'm a div with thin text!</div>
+    <div id="div-text-child">I'm a div with thin text and a child div!</div>
+    <div class="bold" id="div-text-bold">I'm a smaller child div with extra bold text.</div>
+
+</body>
+</html>
