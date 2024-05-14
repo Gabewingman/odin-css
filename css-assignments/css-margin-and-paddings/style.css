@@ -1,0 +1,16 @@
+#one {
+    padding: 32px;
+    border: 32px;
+    margin: 12px;
+}
+
+#two {
+    margin: 24px;
+}
+
+#three {
+    padding: 32px;
+    border: 32px;
+    margin: 24px;
+    margin-left: 500px;
+}
